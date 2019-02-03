@@ -4,16 +4,15 @@ namespace CustomCapes\Tasks;
 use pocketmine\Player;
 use pocketmine\scheduler\PluginTask;
 
-class RankCapeTask extends PluginTask
+class ShowPlayerTask extends PluginTask
 {
 
-    public function __construct($owner, Player $player, $skinid){
+    public function __construct($owner, Player $player){
         parent::__construct($owner);
         $this->player = $player;
-        $this->skinid = $skinid;
     }
 
     public function onRun($currenttick){
-        $this->player->setSkin($this->player->getSkinData(), $this->skinid);;
+        $this->player->spawnToAll();
     }
 }
