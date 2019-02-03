@@ -1,0 +1,27 @@
+# Available languages:
+# eng => English,
+# deu => Deutsch,
+Language: eng
+# Enable changing skins of players on join
+JoinSkins: false
+# Temporary save player skins so they can be used for /changeskin
+TempSavePlayerSkins: true
+# Skins need to be base64 encoded!
+# Playernames of the serverteam members
+ServerTeam: ['StrafelessPvP', 'Pledgedplace411']
+# Check if skin could be changed on join
+CheckSkin: true
+# Time in seconds when the check should begin
+SkinCheckTime: 5
+RemoveCapeOnJoin: true
+# You must have PurePerms for this to work!
+Rank-Specific-Capes: true
+Rank-Capes:
+  Owner: MineconCape2016
+  Co-Owner: MineconCape2011
+  Developer: MineconCape2013
+  Admin: MineconCape2013
+  Moderator: MineconCape2012
+  Helper: MineconCape2015
+  YouTuber: MineconCape2015
+  Player: MineconCape2011
