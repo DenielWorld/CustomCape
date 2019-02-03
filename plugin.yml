@@ -1,10 +1,9 @@
 ---
 name: CustomCapes
 api:
-- 2.0.0
-- 3.0.0-ALPHA10
-version: 1.2.6
-author: StrafelessPvP
+- 3.0.0
+version: 2.0.5-beta
+author: StrafelessPvP, ElektroPrinz
 main: CustomCapes\Skin
 website: https://github.com/StrafelessPvP
 commands:
